@@ -11,8 +11,5 @@ import { UserServiceService } from './services/user-service.service';
 })
 export class AppComponent {
   title = 'Digisolutions';
-
-  constructor(private userService: UserServiceService) { }
-
-  
+  constructor() { }
 }
